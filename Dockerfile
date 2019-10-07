@@ -14,5 +14,6 @@ RUN /bin/bash -c ". activate beakerx && \
     pip install iplantuml"
     
 COPY POO /home/beakerx/POO
+RUN chown -R POO beakerx:beakerx
 
 USER $NB_USER
