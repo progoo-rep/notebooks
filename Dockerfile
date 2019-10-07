@@ -1,4 +1,4 @@
-FROM beakerx/beakerx
+FROM beakerx/beakerx:1.2.0
 
 USER  root
 #RUN apt-get update
