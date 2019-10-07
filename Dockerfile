@@ -12,5 +12,7 @@ ENV PATH /opt/conda/envs/beakerx/bin:$PATH
 
 RUN /bin/bash -c ". activate beakerx && \
     pip install iplantuml"
+    
+COPY POO /home/beakerx/
 
 USER $NB_USER
